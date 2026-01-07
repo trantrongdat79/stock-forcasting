@@ -1,0 +1,62 @@
+# .gitignore for Stock Forecasting Project
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+env/
+ENV/
+.venv
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb_checkpoints/
+
+# Output directories
+results/
+models/
+plots/
+logs/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Data (uncomment if you don't want to track large datasets)
+# dataset/*.csv
+
+# Model files
+*.h5
+*.pkl
+*.pth
+*.onnx
+
+# Logs
+*.log
+
+# OS
+Thumbs.db
