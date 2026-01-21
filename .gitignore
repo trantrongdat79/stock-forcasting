@@ -60,3 +60,6 @@ logs/
 
 # OS
 Thumbs.db
+
+# docs
+docs/*.pdf
